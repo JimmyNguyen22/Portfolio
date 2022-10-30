@@ -3,12 +3,12 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import Image from "next/image";
 import jimmy from "../public/jimmy.jpg";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
+import shopee from "../public/shopee.png";
+import quanlinhanvien from "../public/quanlinhanvien.png";
+import sassweb from "../public/sassweb.png";
+import samar from "../public/samar.png";
+import hoobank from "../public/hoobank.png";
+import bootstrap from "../public/bootstrap.png";
 import html from "../public/html5.svg";
 import css from "../public/css-3.svg";
 import bs from "../public/bootstrap-4.svg";
@@ -47,7 +47,7 @@ export default function Home() {
               <li>
                 <a
                   href="#"
-                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
+                  className="bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 rounded-md ml-8 text-white"
                 >
                   Resume
                 </a>
@@ -152,55 +152,77 @@ export default function Home() {
         <section>
           <h1 className="text-4xl py-1 mt-10">My Projects</h1>
 
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1">
+          <div className="flex flex-col gap-7 py-10 lg:flex-row lg:flex-wrap">
+            <div className="w-[380px]	shadow-lg overflow-hidden rounded-xl dark:bg-gray-800">
               <Image
-                src={web1}
-                className="rounded-lg object-cover w-full h-full"
+                src={shopee}
+                className=" rounded-xl object-cover h-[250px]"
                 layout="reponsive"
               ></Image>
-              <div>
-                <span>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Perferendis nihil hic blanditiis iure expedita omnis nemo
-                  tempore repellendus vel non magni fugiat inventore quasi sint
-                  porro, quis ut neque quo.
-                </span>
+              <div className="p-5">
+                <div className="text-2xl text-teal-500 uppercase text-center mb-3">
+                  <h1>Shopee</h1>
+                </div>
+                <p className="text-lg">
+                  <span className="text-teal-600 text-xl">- Description:</span>{" "}
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. P
+                </p>{" "}
+                <p className="text-lg">
+                  <span className="text-teal-600 text-xl">- Technology:</span>{" "}
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. P
+                </p>
+              </div>
+              <div className="flex justify-between gap-5 pb-5 pl-5 pr-5">
+                <a
+                  href="https://github.com/JimmyNguyen22/shopeeJs"
+                  target="_blank"
+                  className="bg-gradient-to-r min-w-[147px] text-center from-cyan-500 to-teal-500 px-4 py-2 rounded-md text-white"
+                >
+                  Link Github
+                </a>
+
+                <a
+                  href="https://jimmynguyen22.github.io/shop/shopee.html"
+                  target="_blank"
+                  className="bg-red-600 min-w-[147px] text-center px-4 py-2 rounded-md text-white"
+                >
+                  Link Demo
+                </a>
               </div>
             </div>
 
-            <div className="basis-1/3 flex-1">
+            <div className="	w-[380px]	shadow-lg overflow-hidden rounded-xl dark:bg-gray-800">
               <Image
-                src={web2}
-                className="rounded-lg object-cover w-full h-full"
+                src={quanlinhanvien}
+                className="rounded-xl object-cover h-[250px]"
                 layout="reponsive"
               ></Image>
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="	w-[380px]	shadow-lg overflow-hidden rounded-xl dark:bg-gray-800 ">
               <Image
-                src={web3}
-                className="rounded-lg object-cover w-full h-full"
+                src={sassweb}
+                className="rounded-xl object-cover h-[250px]"
                 layout="reponsive"
               ></Image>
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="w-[380px]	shadow-lg overflow-hidden rounded-xl	dark:bg-gray-800 ">
               <Image
-                src={web4}
-                className="rounded-lg object-cover w-full h-full"
+                src={samar}
+                className="rounded-xl object-cover h-[250px]"
                 layout="reponsive"
               ></Image>
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="w-[380px]	shadow-lg overflow-hidden rounded-xl	dark:bg-gray-800 ">
               <Image
-                src={web5}
-                className="rounded-lg object-cover w-full h-full"
+                src={bootstrap}
+                className="rounded-xl object-cover h-[250px]"
                 layout="reponsive"
               ></Image>
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="w-[380px]	shadow-lg overflow-hidden rounded-xl dark:bg-gray-800	 ">
               <Image
-                src={web6}
-                className="rounded-lg object-cover w-full h-full"
+                src={hoobank}
+                className="rounded-xl object-cover h-[250px]"
                 layout="reponsive"
               ></Image>
             </div>
