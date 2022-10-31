@@ -23,3 +23,16 @@ a {
   font-family: "burtons";
   src: url("../public/Burtons.otf");
 }
+
+.overlay:hover a {
+  left: 0;
+}
+
+.overlay a {
+  transition: all 0.2s linear;
+}
+
+.play {
+  transform: translate(-50%, -50%);
+  color: #000;
+}
