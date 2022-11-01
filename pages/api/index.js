@@ -1,20 +1,20 @@
-import jimmy from "../assets/jimmy.jpg";
-import shopee from "../assets/shopee.png";
-import quanlinhanvien from "../assets/quanlinhanvien.png";
-import sassweb from "../assets/sassweb.png";
-import samar from "../assets/samar.png";
-import hoobank from "../assets/hoobank.png";
-import bootstrap from "../assets/bootstrap.png";
-import html from "../assets/html5.svg";
-import css from "../assets/css-3.svg";
-import bs from "../assets/bootstrap-4.svg";
-import sass from "../assets/sass-1.svg";
-import tail from "../assets/tailwindcss.svg";
-import js from "../assets/JavaScript_logo.svg";
-import ajax from "../assets/ajax.png";
-import axios from "../assets/axios.png";
-import github from "../assets/github.png";
-import es6 from "../assets/es6.svg";
+import jimmy from "../../assets/jimmy.jpg";
+import shopee from "../../assets/shopee.png";
+import quanlinhanvien from "../../assets/quanlinhanvien.png";
+import sassweb from "../../assets/sassweb.png";
+import samar from "../../assets/samar.png";
+import hoobank from "../../assets/hoobank.png";
+import bootstrap from "../../assets/bootstrap.png";
+import html from "../../assets/html5.svg";
+import css from "../../assets/css-3.svg";
+import bs from "../../assets/bootstrap-4.svg";
+import sass from "../../assets/sass-1.svg";
+import tail from "../../assets/tailwindcss.svg";
+import js from "../../assets/JavaScript_logo.svg";
+import ajax from "../../assets/ajax.png";
+import axios from "../../assets/axios.png";
+import github from "../../assets/github.png";
+import es6 from "../../assets/es6.svg";
 
 export {
   jimmy,
