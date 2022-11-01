@@ -155,6 +155,10 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
   const [modal, setModal] = useState(false);
 
+  const handleModal = () => {
+    setModal(true);
+  };
+
   return (
     <Fragment>
       <div className={darkMode ? "dark" : ""}>
@@ -300,7 +304,11 @@ export default function Home() {
                       <a
                         className="absolute left-[-100%] top-0 bg-red-50 opacity-60 h-full w-full rounded-xl"
                         onClick={() => {
-                          setModal(true);
+                          const getItem = item.id;
+
+                          console.log(item.id);
+
+                          handleModal();
                         }}
                       >
                         <AiOutlinePlayCircle className="play absolute top-[50%] left-[50%]  text-5xl	" />
@@ -349,9 +357,14 @@ export default function Home() {
         </main>
       </div>
       <Modal isVisible={modal} onClose={() => setModal(false)}>
-        {project.map((item) => {
-          return <div key={item.id}>{item.linkYouTube}</div>;
+        {project.filter((item, index) => {
+          if (item.id === item[index])
+            return <div>{item.linkYouTube}</div>;
         })}
+
+        {/* {project.map((item) => {
+           return <div key={item.id}>{item.linkYouTube}</div>;
+        })} */}
       </Modal>
     </Fragment>
   );
