@@ -31,8 +31,8 @@ const project = [
   {
     id: 1,
     name: "Shopee",
-    desc: "web product call api ",
-    tech: "",
+    desc: "web product shoe shop get api ",
+    tech: "HTML, SCSS, JS ,Axios, Postman",
     img: shopee,
     linkGit: "https://github.com/JimmyNguyen22/shopeeJs",
     linkDemo: "https://jimmynguyen22.github.io/shop/shopee.html",
@@ -51,52 +51,103 @@ const project = [
   {
     id: 2,
     name: "Staff Management",
-    desc: "",
-    tech: "",
+    desc: "Employee Payroll Calculate Program and CRUD",
+    tech: "HTML/CSS/JS ,Bootstrap",
     img: quanlinhanvien,
-    linkGit: "https://github.com/JimmyNguyen22/shopeeJs",
-    linkDemo: "https://jimmynguyen22.github.io/shop/shopee.html",
-    linkYouTube: "",
+    linkGit: "https://github.com/JimmyNguyen22/QuanLyNhanVien_CRUD",
+    linkDemo: "https://quanlynhanvien-crud.surge.sh/",
+    linkYouTube: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/hbeDPYq-_Kg"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    ),
   },
   {
     id: 3,
     name: "E-learning landing page",
-    desc: "",
-    tech: "",
-    img: "",
-    linkGit: "https://github.com/JimmyNguyen22/shopeeJs",
-    linkDemo: "https://jimmynguyen22.github.io/shop/shopee.html",
-    linkYouTube: "",
+    desc: "Build layout professional with sass and rule BEM",
+    tech: "SCSS ,JS , OWL carousel, Bootstrap, Swiper",
+    img: sassweb,
+    linkGit: "https://github.com/JimmyNguyen22/SASS_landingPage",
+    linkDemo: "https://jimmynguyen22.github.io/SASS_landingPage/",
+    linkYouTube: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/qskxe6No2qY"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    ),
   },
   {
     id: 4,
-    name: "E-learning landing page",
-    desc: "",
-    tech: "",
-    img: "",
+    name: "Samar",
+    desc: "Web landing page with modern UI/UX ",
+    tech: "HTML/CSS/JS , OWL carousel, Animate, Wowjs, Swiper",
+    img: samar,
     linkGit: "https://github.com/JimmyNguyen22/shopeeJs",
     linkDemo: "https://jimmynguyen22.github.io/shop/shopee.html",
-    linkYouTube: "",
+    linkYouTube: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/d3ACgRob4h8"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    ),
   },
   {
     id: 5,
-    name: "E-learning landing page",
-    desc: "",
-    tech: "",
-    img: "",
-    linkGit: "https://github.com/JimmyNguyen22/shopeeJs",
-    linkDemo: "https://jimmynguyen22.github.io/shop/shopee.html",
-    linkYouTube: "",
+    name: "Landing page",
+    desc: "Web landing page form layout design",
+    tech: "HTML/CSS/JS , Bootstrap",
+    img: bootstrap,
+    linkGit: "https://github.com/JimmyNguyen22/Capstone_landingPage",
+    linkDemo:
+      "https://jimmynguyen22.github.io/Capstone_landingPage/capstone.html",
+    linkYouTube: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/fFHA8xBNblA"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    ),
   },
   {
     id: 6,
-    name: "E-learning landing page",
-    desc: "",
-    tech: "",
-    img: "",
-    linkGit: "https://github.com/JimmyNguyen22/shopeeJs",
-    linkDemo: "https://jimmynguyen22.github.io/shop/shopee.html",
-    linkYouTube: "",
+    name: "Hoobank",
+    desc: "Web fully responsive with a modern UI/UX",
+    tech: "Base Reactjs, ViteJs, Tailwindcss",
+    img: hoobank,
+    linkGit: "https://github.com/JimmyNguyen22/landingPage_reactjs",
+    linkDemo: "https://hoobank-ladingpage.surge.sh/",
+    linkYouTube: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/tRN89QcYhU0"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    ),
   },
 ];
 
@@ -126,7 +177,8 @@ export default function Home() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="https://drive.google.com/file/d/17qXhVlEGiwcZ4VyTJDMcebCxyNdgmRcF/view?usp=sharing"
+                    target="_blank"
                     className="bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 rounded-md ml-8 text-white"
                   >
                     Resume
@@ -233,92 +285,65 @@ export default function Home() {
             <h1 className="text-4xl py-1 mt-10">My Projects</h1>
 
             <div className="flex flex-col gap-7 py-10 lg:flex-row lg:flex-wrap">
-              <div className="w-[380px]	shadow-lg overflow-hidden rounded-xl dark:bg-gray-800">
-                <div className="overlay relative   cursor-pointer">
-                  <Image
-                    src={shopee}
-                    className="img rounded-xl object-cover h-[250px]"
-                    layout="reponsive"
-                  ></Image>
-                  <a
-                    className="absolute left-[-100%] top-0 bg-red-50 opacity-60 h-full w-full rounded-xl"
-                    onClick={() => {
-                      setModal(true);
-                    }}
+              {project.map((item) => {
+                return (
+                  <div
+                    className="w-[380px] h-[510px] relative	shadow-lg overflow-hidden rounded-xl dark:bg-gray-800"
+                    key={item.id}
                   >
-                    <AiOutlinePlayCircle className="play absolute top-[50%] left-[50%]  text-5xl	" />
-                  </a>
-                </div>
+                    <header className="overlay relative cursor-pointer">
+                      <Image
+                        src={item.img}
+                        className="img rounded-xl object-cover h-[250px]"
+                        layout="reponsive"
+                      ></Image>
+                      <a
+                        className="absolute left-[-100%] top-0 bg-red-50 opacity-60 h-full w-full rounded-xl"
+                        onClick={() => {
+                          setModal(true);
+                        }}
+                      >
+                        <AiOutlinePlayCircle className="play absolute top-[50%] left-[50%]  text-5xl	" />
+                      </a>
+                    </header>
 
-                <div className="p-5">
-                  <div className="text-2xl text-teal-500 uppercase text-center mb-3">
-                    <h1>Shopee</h1>
+                    <div className="p-5">
+                      <div className="text-2xl text-teal-500 uppercase text-center mb-3">
+                        <h1>{item.name}</h1>
+                      </div>
+                      <p className="text-lg">
+                        <span className="text-teal-600 text-xl">
+                          - Description:
+                        </span>{" "}
+                        {item.desc}
+                      </p>{" "}
+                      <p className="text-lg">
+                        <span className="text-teal-600 text-xl">
+                          - Technology:
+                        </span>{" "}
+                        {item.tech}
+                      </p>
+                    </div>
+                    <footer className="absolute bottom-0 left-0 right-0 flex justify-between gap-5 pb-5 pl-5 pr-5">
+                      <a
+                        href={item.linkGit}
+                        target="_blank"
+                        className="bg-gradient-to-r min-w-[147px] text-center from-cyan-500 to-teal-500 px-4 py-2 rounded-md text-white"
+                      >
+                        Link Github
+                      </a>
+
+                      <a
+                        href={item.linkDemo}
+                        target="_blank"
+                        className="bg-red-600 min-w-[147px] text-center px-4 py-2 rounded-md text-white"
+                      >
+                        Link Demo
+                      </a>
+                    </footer>
                   </div>
-                  <p className="text-lg">
-                    <span className="text-teal-600 text-xl">
-                      - Description:
-                    </span>{" "}
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. P
-                  </p>{" "}
-                  <p className="text-lg">
-                    <span className="text-teal-600 text-xl">- Technology:</span>{" "}
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. P
-                  </p>
-                </div>
-                <div className="flex justify-between gap-5 pb-5 pl-5 pr-5">
-                  <a
-                    href="https://github.com/JimmyNguyen22/shopeeJs"
-                    target="_blank"
-                    className="bg-gradient-to-r min-w-[147px] text-center from-cyan-500 to-teal-500 px-4 py-2 rounded-md text-white"
-                  >
-                    Link Github
-                  </a>
-
-                  <a
-                    href="https://jimmynguyen22.github.io/shop/shopee.html"
-                    target="_blank"
-                    className="bg-red-600 min-w-[147px] text-center px-4 py-2 rounded-md text-white"
-                  >
-                    Link Demo
-                  </a>
-                </div>
-              </div>
-
-              <div className="	w-[380px]	shadow-lg overflow-hidden rounded-xl dark:bg-gray-800">
-                <Image
-                  src={quanlinhanvien}
-                  className="rounded-xl object-cover h-[250px]"
-                  layout="reponsive"
-                ></Image>
-              </div>
-              <div className="	w-[380px]	shadow-lg overflow-hidden rounded-xl dark:bg-gray-800 ">
-                <Image
-                  src={sassweb}
-                  className="rounded-xl object-cover h-[250px]"
-                  layout="reponsive"
-                ></Image>
-              </div>
-              <div className="w-[380px]	shadow-lg overflow-hidden rounded-xl	dark:bg-gray-800 ">
-                <Image
-                  src={samar}
-                  className="rounded-xl object-cover h-[250px]"
-                  layout="reponsive"
-                ></Image>
-              </div>
-              <div className="w-[380px]	shadow-lg overflow-hidden rounded-xl	dark:bg-gray-800 ">
-                <Image
-                  src={bootstrap}
-                  className="rounded-xl object-cover h-[250px]"
-                  layout="reponsive"
-                ></Image>
-              </div>
-              <div className="w-[380px]	shadow-lg overflow-hidden rounded-xl dark:bg-gray-800	 ">
-                <Image
-                  src={hoobank}
-                  className="rounded-xl object-cover h-[250px]"
-                  layout="reponsive"
-                ></Image>
-              </div>
+                );
+              })}
             </div>
           </section>
         </main>
