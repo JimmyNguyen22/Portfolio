@@ -2,7 +2,7 @@ import jimmy from "../../assets/jimmy.jpg";
 import shopee from "../../assets/shopee.png";
 import quanlinhanvien from "../../assets/quanlinhanvien.png";
 import sassweb from "../../assets/sassweb.png";
-import samar from "../../assets/samar.png";
+import samar from "../../assets/webcss.png";
 import hoobank from "../../assets/hoobank.png";
 import bootstrap from "../../assets/bootstrap.png";
 import html from "../../assets/html5.svg";
