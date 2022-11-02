@@ -100,16 +100,25 @@ export default function Home() {
             </div>
 
             <div className="text-6xl flex justify-center gap-16 py-3 text-gray-600  ">
-              <a href="https://github.com/JimmyNguyen22" target="_blank">
+              <a
+                href="https://github.com/JimmyNguyen22"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <AiFillGithub></AiFillGithub>
               </a>
               <a
                 href="https://www.linkedin.com/in/v%C4%A9nh-ph%C3%BA-7156b9247/"
+                rel="noreferrer"
                 target="_blank"
               >
                 <AiFillLinkedin></AiFillLinkedin>
               </a>
-              <a href="https://www.youtube.com/channel/UC9V1l9M34WbDUWFznrqkDNg/videos">
+              <a
+                href="https://www.youtube.com/channel/UC9V1l9M34WbDUWFznrqkDNg/videos"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <AiFillYoutube></AiFillYoutube>
               </a>
             </div>
@@ -210,6 +219,7 @@ export default function Home() {
                       <a
                         href={item.linkGit}
                         target="_blank"
+                        rel="noreferrer"
                         className="bg-gradient-to-r min-w-[147px] text-center from-cyan-500 to-teal-500 px-4 py-2 rounded-md text-white"
                       >
                         Link Github
@@ -218,6 +228,7 @@ export default function Home() {
                       <a
                         href={item.linkDemo}
                         target="_blank"
+                        rel="noreferrer"
                         className="bg-red-600 min-w-[147px] text-center px-4 py-2 rounded-md text-white"
                       >
                         Link Demo
