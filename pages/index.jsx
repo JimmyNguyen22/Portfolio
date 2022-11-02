@@ -27,9 +27,13 @@ import { Modal } from "../components/Modal";
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
   const [modal, setModal] = useState(false);
+  const [idModalItem, setIdModalItem] = useState(null);
 
-  const handleModal = () => {
+  const handleModal = (id) => {
     setModal(true);
+
+    setIdModalItem(id);
+    console.log(setIdModalItem(id));
   };
 
   return (
@@ -104,7 +108,7 @@ export default function Home() {
               >
                 <AiFillLinkedin></AiFillLinkedin>
               </a>
-              <a href="#">
+              <a href="https://www.youtube.com/channel/UC9V1l9M34WbDUWFznrqkDNg/videos">
                 <AiFillYoutube></AiFillYoutube>
               </a>
             </div>
@@ -174,18 +178,14 @@ export default function Home() {
                         className="img rounded-xl object-cover h-[250px]"
                         layout="reponsive"
                       ></Image>
-                      <a
+                      <div
                         className="absolute left-[-100%] top-0 bg-red-50 opacity-60 h-full w-full rounded-xl"
-                        onClick={() => {
-                          const getItem = item.id;
-
-                          console.log(item.id);
-
-                          handleModal();
-                        }}
+                        // onClick={() => {
+                        //   handleModal(item.id);
+                        // }}
                       >
                         <AiOutlinePlayCircle className="play absolute top-[50%] left-[50%]  text-5xl	" />
-                      </a>
+                      </div>
                     </header>
 
                     <div className="p-5">
@@ -230,12 +230,8 @@ export default function Home() {
         </main>
       </div>
       <Modal isVisible={modal} onClose={() => setModal(false)}>
-        {/* {project.filter((item, index) => {
-          if (item.id === item[index]) return <div>{item.linkYouTube}</div>;
-        })} */}
-
-        {project.map((item) => {
-          return <div key={item.id}>{item.linkYouTube}</div>;
+        {project.filter((item) => {
+          if (item.id === idModalItem) return <div>{project.linkYouTube}</div>;
         })}
       </Modal>
     </Fragment>

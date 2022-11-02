@@ -103,8 +103,8 @@ export const project = [
     desc: "Web landing page with modern UI/UX ",
     tech: "HTML/CSS/JS , OWL carousel, Animate, Wowjs, Swiper",
     img: samar,
-    linkGit: "https://github.com/JimmyNguyen22/shopeeJs",
-    linkDemo: "https://jimmynguyen22.github.io/shop/shopee.html",
+    linkGit: "https://github.com/JimmyNguyen22/landingPage_Samar",
+    linkDemo: "https://jimmynguyen22.github.io/landingPage_Samar/samar.html",
     linkYouTube: (
       <iframe
         width="560"
