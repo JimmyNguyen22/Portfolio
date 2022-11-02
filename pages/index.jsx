@@ -82,9 +82,9 @@ export default function Home() {
                   className="text-md text-left py-5 leading-8 text-gray-800 md:text-xl max-w-2xl mx-auto
             dark:text-gray-300"
                 >
-                  Good day, everyone! I&apos;m often passionate about learning new
-                  technologies and always keep concentrated on improving my self
-                  skills. Being patient and responsible for working help me
+                  Good day, everyone! I&apos;m often passionate about learning
+                  new technologies and always keep concentrated on improving my
+                  self skills. Being patient and responsible for working help me
                   implement completely assigned tasks.
                 </p>
                 <p
@@ -92,9 +92,9 @@ export default function Home() {
             dark:text-gray-300"
                 >
                   I always put my heart and soul into every single website that
-                  I develop. I guess that&apos;s all I have to share about myself.
-                  Hope that I can contribute to the development of your company.
-                  Thank you for reading!
+                  I develop. I guess that&apos;s all I have to share about
+                  myself. Hope that I can contribute to the development of your
+                  company. Thank you for reading!
                 </p>
               </div>
             </div>
@@ -182,7 +182,7 @@ export default function Home() {
                     className="w-[380px] h-[510px] relative	shadow-lg overflow-hidden rounded-xl dark:bg-gray-800"
                     key={item.id}
                   >
-                    <header className="overlay relative cursor-pointer">
+                    <header className="overlay relative">
                       <Image
                         src={item.img}
                         className="img rounded-xl object-cover h-[250px]"
