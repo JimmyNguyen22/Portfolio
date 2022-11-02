@@ -82,7 +82,7 @@ export default function Home() {
                   className="text-md text-left py-5 leading-8 text-gray-800 md:text-xl max-w-2xl mx-auto
             dark:text-gray-300"
                 >
-                  Good day, everyone! I'm often passionate about learning new
+                  Good day, everyone! I&apos;m often passionate about learning new
                   technologies and always keep concentrated on improving my self
                   skills. Being patient and responsible for working help me
                   implement completely assigned tasks.
@@ -92,7 +92,7 @@ export default function Home() {
             dark:text-gray-300"
                 >
                   I always put my heart and soul into every single website that
-                  I develop. I guess that's all I have to share about myself.
+                  I develop. I guess that&apos;s all I have to share about myself.
                   Hope that I can contribute to the development of your company.
                   Thank you for reading!
                 </p>
