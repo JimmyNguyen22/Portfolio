@@ -36,3 +36,7 @@ a {
   transform: translate(-50%, -50%);
   color: #000;
 }
+
+.active {
+  display: none;
+}
